@@ -1,0 +1,135 @@
+body {
+    background-color: #080808;
+}
+
+.center {
+    width: 931px;
+    height: 503px;
+    background-color: #131313;
+    border-radius: 15px;
+    
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.center-head { 
+	width:397px;
+	height:78px;
+	/* position:absolute; */
+	left:42px;
+	top:31px;
+}
+
+.head-name { 
+	color:rgba(236.93750202655792, 236.93750202655792, 236.93750202655792, 1);
+	width:171px;
+	height:34px;
+	position:absolute;
+	left:92px;
+	top:11px;
+	font-family:Inter;
+	text-align:left;
+	font-size:28px;
+	letter-spacing:0;
+}
+
+.head-desc { 
+	color:rgba(164.6874949336052, 164.6874949336052, 164.6874949336052, 1);
+	width:305px;
+	height:19px;
+	position:absolute;
+	left:92px;
+	top:45px;
+	font-family:Inter;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+
+.avatar { 
+	width:70px;
+	height:70px;
+	position:absolute;
+	left:4px;
+	top:4px;
+    border-radius: 100%;
+    border: #48FF44 solid 2px;
+	background-image:url(images/image_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.center-head { 
+	width:397px;
+	height:78px;
+	position:absolute;
+	left:42px;
+	top:31px;
+}
+
+.pfp-outline { 
+	width:78px;
+	height:78px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.social-link a {
+    width: 35px;
+    height: 35px;
+    background: #212121;
+    border-radius: 100%;
+    cursor: pointer;
+    border: 2px solid #505050;
+    text-decoration: none;
+    flex: 0.5;
+}
+
+.social-link img {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.social-links {
+    box-sizing: border-box;
+    display: flex;
+    width: 850px;
+    height: 56px;
+    margin-left: 41px;
+    margin-top: 150px;
+
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+
+    border: 1px solid #303030;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.links {
+	position: absolute;
+    margin-left: 41px;
+    margin-top: 21px;
+}
+
+button {
+    width: 850px;
+    height: 36px;
+    box-shadow:0px 3px 3px rgba(0, 0, 0, 0.25);
+	background:rgba(42.5000012665987, 42.5000012665987, 42.5000012665987, 1);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family:Inter;
+	text-align:center;
+	font-size:20px;
+    color:rgba(204.00000303983688, 204.00000303983688, 204.00000303983688, 1);
+    text-decoration: none;
+}

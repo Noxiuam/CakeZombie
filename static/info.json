@@ -1,0 +1,29 @@
+{
+    "header": {
+        "name": "CakeZombie",
+        "description": "\"Prepare for unforeseen consequences.\"",
+        "avatarUrl": "images/image_1.png"
+    },
+
+    "socialLinks": {
+        "discord": {
+            "image": "images/image_6.png",
+            "link": ""
+        }
+    },
+
+    "links": {
+
+        "latestVideo": {
+            "text": "Latest Video",
+            "link": "https://google.com"
+        },
+
+        "pack": {
+            "text": "Texture Pack",
+            "link": "insert link here"
+        }
+
+    }
+
+}
